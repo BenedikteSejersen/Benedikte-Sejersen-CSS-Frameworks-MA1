@@ -1,0 +1,12 @@
+footer {
+    background-color: $white;
+    p {
+        margin: 10px 50px;
+    }
+}
+
+@media (max-width: $mobile-screen) {
+    .footer {
+        text-align: center !important;
+    }
+}

@@ -1,0 +1,18 @@
+nav {
+    background-color: $white;
+
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+// Mobile
+@media (max-width: $mobile-screen)  {
+    @include hamburger-menu;
+}
+
+// Tablet
+@media (min-width: 768px) and (max-width: $tablet-screen) {
+    @include hamburger-menu;
+}

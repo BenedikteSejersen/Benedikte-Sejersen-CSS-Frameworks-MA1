@@ -1,0 +1,13 @@
+.product__item {
+    @extend .circles;
+}
+
+.product__item--limited {
+    background-color: #fff;
+    border: 2px solid $pink;
+}
+
+.product__item--sale {
+    background-color: $pink;
+    border: 2px solid #fff ;
+}
